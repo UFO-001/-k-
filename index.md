@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "啊柯的杂货铺"
+  name: "啊k的杂货铺"
   text: "一位前端开发者的日常"
   tagline: 记录一些日常开发中遇到的问题
   image:

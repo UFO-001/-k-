@@ -6,15 +6,16 @@ import { vue3Menu } from "./utils/sidebarMenu.js";
 
 console.log(generateSidebar([vue3Menu]));
 
-// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/reference/site-confikg
 export default defineConfig({
-  title: "啊柯的杂货铺",
-  description: "啊柯的杂货铺",
+  title: "啊k的杂货铺",
+  description: "啊k的杂货铺",
   appearance: "dark",
-
+  sitemap: {
+    hostname: "https://huangqinke.top",
+  },
   themeConfig: {
-    lastUpdated: "上次更新",
-    siteTitle: "啊柯的杂货铺",
+    siteTitle: "啊k的杂货铺",
     logo: "/logo.svg",
     search: {
       provider: "local",
@@ -40,7 +41,18 @@ export default defineConfig({
 
     footer: {
       message: "",
-      copyright: "Copyright © 2024 AKe",
+      copyright: "Copyright © 2024 AK",
+    },
+    editLink: {
+      // pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
+      text: "看项目源码",
+    },
+    lastUpdated: {
+      text: "最后更新于",
+      formatOptions: {
+        dateStyle: "short",
+        timeStyle: "medium",
+      },
     },
   },
 });

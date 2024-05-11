@@ -7,7 +7,7 @@ console.log(page.value,'ssss')
 </script>
 
 <template>
-  <h1>{{ page.value.lastUpdated }}</h1>
+  <h1>{{ page.value }}</h1>
 </template>
 
 # Docs
