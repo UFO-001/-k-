@@ -1,5 +1,6 @@
 <script setup>
 import { data as posts } from "../utils/posts.data.mjs";
+console.log(posts, "posts");
 </script>
 
 <template>
